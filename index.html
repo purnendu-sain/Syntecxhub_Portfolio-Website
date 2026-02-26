@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Purnendu Sain</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOADER -->
+<div id="loader">Loading...</div>
+
+<!-- CURSOR -->
+<div class="cursor"></div>
+
+<!-- BACKGROUND -->
+<canvas id="bg"></canvas>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">PURNENDU SAIN</h2>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-left">
+        <p class="tag">CRAFTING MODERN EXPERIENCES</p>
+
+        <h1>
+            Crafting clean &<br>
+            modern web<br>
+            experiences.
+        </h1>
+
+        <p class="desc">
+            I'm Purnendu, a frontend developer building smooth,
+            intuitive and visually polished interfaces.
+        </p>
+
+        <button class="btn">Explore Work</button>
+    </div>
+
+    <div class="hero-card">
+        <div class="circle">PS</div>
+        <p>Turning ideas into pixels that speak.</p>
+
+        <div class="stats">
+            <div><h3>01</h3><span>Years</span></div>
+            <div><h3>3</h3><span>Projects</span></div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section hidden">
+    <h2>About Me</h2>
+    <p class="content">
+        I'm a CSE student passionate about frontend development.
+        I love building clean, elegant and user-friendly interfaces.
+        Passionate frontend developer focused on building clean UI and modern experiences.
+        I am currently mastering HTML, CSS and JavaScript while building real projects.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section hidden">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        <span>Python</span><span>SQL</span><span>Linux</span>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section hidden">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="card">Portfolio Website</div>
+        <div class="card">Calculator</div>
+        <div class="card">IoT System</div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section hidden">
+    <h2>Contact</h2>
+    <p>Phone No: 8335881563</p>
+    <p>Email: purnendusain2007@gmail.com</p>
+    <p>Linkedin: linkedin.com/in/purnendu-sain-21b0b6314</p>
+</section>
+
+<footer>© 2026 Purnendu Sain</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
